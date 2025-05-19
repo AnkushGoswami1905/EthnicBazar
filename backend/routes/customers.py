@@ -1,5 +1,6 @@
 from flask import Blueprint, request, jsonify
-from backend.json_handler import search_products
+# from backend.json_handler import search_products
+from backend.json_handler import read_products, search_products
 from json_handler import read_products
 
 # from backend.json_handler import search_products
