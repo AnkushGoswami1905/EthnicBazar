@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'backend
 from flask import Flask, send_from_directory
 from flask import Flask, request, jsonify
 import json
-from routes.customers import customers_bp
+from backend.routes.customers import customers_bp
 from routes.vendors import vendors_bp
 from routes.admin import admin_bp
 from werkzeug.security import generate_password_hash, check_password_hash
